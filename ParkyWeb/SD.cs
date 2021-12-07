@@ -11,5 +11,8 @@ namespace ParkyWeb
         public const string NationalParkAPIPath = APIBaseUrl+"api/v1/nationalParks/";
         public const string TrailAPIPath = APIBaseUrl+"api/v1/trails/";
         public const string AccountAPIPath = APIBaseUrl+"api/v1/users/";
+
+        public const string AdminRole = "Admin";
+        public const string UserRole = "User";
     }
 }
